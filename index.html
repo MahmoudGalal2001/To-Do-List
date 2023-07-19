@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container ">
+            <div class="row">
+                <h1 class=" text-center">To Do List </h1>
+                <div class="row justify-content-center ">
+                    <input type="text" placeholder="what do you think about ?" class="col-md-8" id="Do">
+                    <input type="submit" class="btn  col-md-1 col-3" value="ADD" id="btnAdd">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <h2 class=" mt-5">Tasks:-</h2>
+        <div class="card">
+            <div class="card-body">
+                <div id="tasks">
+                    
+                    <!-- <div class="row my-2">
+                        <input type="text" class="col-9" readonly value="hello">
+                        <div class="col-3 text-center " >
+                            <button class="btn edit">Edit</button>
+                            <button class="btn delete">Detete</button>
+                        </div> 
+                    </div>  -->
+ 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <div class="alert alert-dark row" id="tasks">
+        <input type="text" class="col-9 col-sm-10 inp" readonly="readonly">
+        <div  class="btns col-3 ">
+            <button onclick="Delete()" class="btn btn-outline-danger " > Delete</button>
+            <button onclick="Edit()" class="btn btn-outline-info" > Edit</button>
+        </div>
+    </div> -->
+
+
+    <script src="./JS/main.js"></script>
+
+</body>
+
+</html>
